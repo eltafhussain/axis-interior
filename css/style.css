@@ -14,7 +14,23 @@ body {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffb600; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #ffb600; 
+}
 a {
   color: #ffb600;
   transition: 0.5s;
