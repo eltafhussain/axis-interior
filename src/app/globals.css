@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0e2f8a;
+  --color-navy-dark: #0a2268;
+  --color-yellow: #fdb813;
+  --color-yellow-light: #ffc845;
+  --color-charcoal: #474747;
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Keep anchor targets clear of the sticky header. */
+section[id] {
+  scroll-margin-top: 4.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+dialog::backdrop {
+  background: rgb(10 34 104 / 0.92);
+}
