@@ -20,3 +20,10 @@ npm-debug.log*
 
 # brainstorming mockups
 .superpowers/
+
+# cloudflare / opennext
+.open-next/
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+cloudflare-env.d.ts

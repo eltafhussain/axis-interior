@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "axis-interiors",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-03",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      // Self-reference used by OpenNext for caching/revalidation
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "axis-interiors"
+    }
+  ],
+  "images": {
+    // Powers next/image optimization via Cloudflare Images
+    "binding": "IMAGES"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
