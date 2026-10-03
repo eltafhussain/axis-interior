@@ -39,7 +39,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4">
         <a href="#top" className="rounded bg-white px-2.5 py-1.5" aria-label={`${site.name} home`}>
-          <Image src="/images/logo.png" alt={site.name} width={600} height={159} className="h-7 w-auto" priority />
+          <Image src="/images/logo.png" alt={site.name} width={600} height={200} className="h-8 w-auto" priority />
         </a>
 
         <nav aria-label="Main" className="hidden items-center gap-7 md:flex">
