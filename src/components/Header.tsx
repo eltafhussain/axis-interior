@@ -13,6 +13,15 @@ const links = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const solid = open || scrolled;
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -22,7 +31,12 @@ export function Header() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 bg-navy shadow-md">
+    // Transparent over the hero photo; solid navy once scrolled or while the mobile menu is open.
+    <header
+      className={`fixed inset-x-0 top-0 z-40 border-b motion-safe:transition-colors motion-safe:duration-300 ${
+        solid ? "border-transparent bg-navy shadow-md" : "border-white/20 bg-transparent"
+      }`}
+    >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4">
         <a href="#top" className="rounded bg-white px-2.5 py-1.5" aria-label={`${site.name} home`}>
           <Image src="/images/logo.png" alt={site.name} width={600} height={159} className="h-7 w-auto" priority />
