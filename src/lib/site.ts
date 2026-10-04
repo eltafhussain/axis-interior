@@ -2,16 +2,16 @@
 export const site = {
   name: "Axis Interiors",
   url: "https://www.axisinteriors.co.nz",
-  title: "Gib Stopping, Plastering, Tiling & Painting in Auckland | Axis Interiors",
+  title: "Gib Stopping, Plastering, Tiling & Painting in QueensTown | Axis Interiors",
   description:
-    "Axis Interiors is an Auckland interior contractor specialising in gib stopping and coving, plasterboard supply & fix, tiling and painting for homes and commercial fit-outs. Free quotes.",
+    "Axis Interiors is an QueensTown interior contractor specialising in gib stopping and coving, plasterboard supply & fix, tiling and painting for homes and commercial fit-outs. Free quotes.",
   email: "info@axisinteriors.co.nz",
-  phone: { display: "021 24 222 50", href: "tel:+64212422250", international: "+64 21 242 2250" },
+  phone: { display: "021 253 6725", href: "tel:+64212536725", international: "+64 21 253 6725" },
   address: {
-    street: "12 Maybelle Place",
-    suburb: "Kelston",
-    city: "Auckland",
-    postcode: "0602",
+    street: "9 Brunswick Street",
+    suburb: "QueensTown",
+    city: "QueensTown",
+    postcode: "9300",
     country: "NZ",
   },
   geo: { latitude: -36.8948317, longitude: 174.6613689 },

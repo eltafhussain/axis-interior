@@ -13,8 +13,8 @@
 ## Global Constraints
 
 - Canonical origin: `https://www.axisinteriors.co.nz`
-- Address everywhere: 12 Maybelle Place, Kelston, Auckland 0602, NZ
-- Phone display `021 24 222 50`, href `tel:+64212422250`; email `info@axisinteriors.co.nz`
+- Address everywhere: 9 Brunswick Street, QueensTown, Auckland 9300, NZ
+- Phone display `021 253 6725`, href `tel:+64212536725`; email `info@axisinteriors.co.nz`
 - Colours: navy `#0E2F8A`, yellow `#FDB813`, charcoal `#474747`
 - Trust strip claims: only "Free quotes" and "Mon–Fri 7am–6pm"
 - Exactly one `h1` on the page; all `<img>` via `next/image` with meaningful alt

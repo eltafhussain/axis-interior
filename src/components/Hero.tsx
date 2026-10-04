@@ -15,11 +15,11 @@ export function Hero() {
       {/* Top padding clears the fixed header that sits over the photo. */}
       <div className="mx-auto max-w-5xl px-4 pt-28 pb-20 text-center text-white">
         <p className="font-display text-xs font-extrabold uppercase tracking-[0.18em] text-yellow">
-          Auckland interior specialists
+          QueensTown interior specialists
         </p>
         <h1 className="mt-4 font-display text-4xl font-black uppercase leading-[1.05] sm:text-5xl lg:text-6xl">
           Gib stopping, tiling <br className="hidden sm:inline" />
-          &amp; painting in Auckland
+          &amp; painting in QueensTown
         </h1>
         <p className="mx-auto mt-5 max-w-xl text-lg text-white/90">
           Smooth walls, clean finishes and reliable trades for homes, renovations and commercial fit-outs.

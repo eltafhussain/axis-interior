@@ -25,7 +25,7 @@ export function Portfolio() {
       <div className="mx-auto max-w-6xl px-4">
         <SectionHeading id="work-heading" eyebrow="Recent projects" title="Our work" />
         <p className="mx-auto mt-6 max-w-2xl text-center">
-          Plasterboard, stopping and ceiling work from recent commercial fit-outs across Auckland.
+          Plasterboard, stopping and ceiling work from recent commercial fit-outs across QueensTown.
         </p>
         <ul className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-3">
           {portfolio.map((item, i) => (
